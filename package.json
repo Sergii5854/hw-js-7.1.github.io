@@ -2,6 +2,7 @@
   "name": "router",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sergii5854.github.io/hw-js-7.1.github.io/",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",

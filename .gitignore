@@ -3,11 +3,8 @@
 # dependencies
 node_modules/
 .idea/
-# testing
-/coverage
 
 # production
-
 .idea/workspace.xml
 # misc
 .DS_Store
@@ -15,9 +12,6 @@ node_modules/
 .env.development.local
 .env.test.local
 .env.production.local
-
-npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
 
