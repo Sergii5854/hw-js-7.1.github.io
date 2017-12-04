@@ -3,12 +3,9 @@
 # dependencies
 node_modules/
 .idea/
-<<<<<<< HEAD
-.idea/*
+
 # testing
-/coverage
-=======
->>>>>>> develop
+
 
 # production
 .idea/workspace.xml
