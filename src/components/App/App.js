@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {HashRouter} from 'react-router-dom'
 
+import './App.css'
+
 import Header from "./../header/header";
 import Hero from "./../hero/hero";
 import Services from "./../services/services";
@@ -18,8 +20,8 @@ class App extends Component {
             <Header />
             <Hero />
             <Services />
-            <Team />
             <Portfolio />
+            <Team/>
             <News />
             <Contact />
             <Footer />

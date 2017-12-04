@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
-import { Route, NavLink, Switch, Redirect } from 'react-router-dom'
+import {Route, NavLink, Switch, Redirect} from 'react-router-dom'
+import ScrollableAnchor from 'react-scrollable-anchor'
+import './header.css'
 
-import logo from './../../assets/img/logo.png'
+import logo from './logo.png'
 
 import Hero from "./../hero/hero";
 import Services from "./../services/services";
@@ -16,37 +18,60 @@ export default class Header extends Component {
         <section className="header">
           <header className='App-header'>
             <img src={logo} className='App-logo' alt='logo'/>
-            <h2>Welcome to React</h2>
+            <h1><span className='logo'>Pro</span>Jex</h1>
+            <h2>One Page Business Theme</h2>
           </header>
           <nav className='nav'>
-            <NavLink exact activeClassName='active' to='/'>Home</NavLink>
-            <NavLink activeClassName='active' to='/Services'>Services</NavLink>
-            <NavLink activeClassName='active' to='/Team'>Our Team</NavLink>
-            <NavLink activeClassName='active' to='/Portfolio'>Portfolio</NavLink>
-            <NavLink activeClassName='active' to='/News'>News</NavLink>
-            <NavLink activeClassName='active' to='/contact'>Contact</NavLink>
+            <NavLink exact
+                     activeClassName='active'
+                     to='/'
+                     activeStyle={{
+                       fontWeight: 'bold',
+                       color: '#777'
+                     }}
+            >Home</NavLink>
+            <NavLink activeClassName='active' to='/Services' activeStyle={{
+              fontWeight: 'bold',
+              color: '#777'
+            }}>Services</NavLink>
+            <NavLink activeClassName='active' to='/Team' activeStyle={{
+              fontWeight: 'bold',
+              color: '#777'
+            }}>Our Team</NavLink>
+            <NavLink activeClassName='active' to='/Portfolio' activeStyle={{
+              fontWeight: 'bold',
+              color: '#777'
+            }}>Portfolio</NavLink>
+            <NavLink activeClassName='active' to='/News' activeStyle={{
+              fontWeight: 'bold',
+              color: '#777'
+            }}>News</NavLink>
+            <NavLink activeClassName='active' to='/contact' activeStyle={{
+              fontWeight: 'bold',
+              color: '#777'
+            }}>Contact Us</NavLink>
           </nav>
           <main className='main-content'>
-            <Switch>
-              <Route exact path='/' component={Hero}/>
-              <Route path='/Services' component={Services}/>
-              <Route path='/Team' component={Team}/>
-              <Route path='/Portfolio' component={Portfolio}/>
-              <Route path='/News' component={News}/>
-              <Route path='/Contact' component={Contact}/>
+            {/*<Switch>*/}
+              {/*<Route exact path='/' component={Hero}/>*/}
+              {/*<Route path='/Services' component={Services}/>*/}
+              {/*<Route path='/Team' component={Team}/>*/}
+              {/*<Route path='/Portfolio' component={Portfolio}/>*/}
+              {/*<Route path='/News' component={News}/>*/}
+              {/*<Route path='/Contact' component={Contact}/>*/}
 
-              <Route path='*' render={(match) => {
-                console.log('arguments', match)
-                if (match.location.pathname === '/team') {
-                  return (
-                      <Redirect to='/our-team'/>
-                  )
-                }
-                return (
-                    <div>Page not found</div>
-                )
-              }}/>
-            </Switch>
+              {/*<Route path='*' render={(match) => {*/}
+                {/*console.log('arguments', match);*/}
+                {/*if (match.location.pathname === '/team') {*/}
+                  {/*return (*/}
+                      {/*<Redirect to='/our-team'/>*/}
+                  {/*)*/}
+                {/*}*/}
+                {/*return (*/}
+                    {/*<div>Page not found</div>*/}
+                {/*)*/}
+              {/*}}/>*/}
+            {/*</Switch>*/}
           </main>
         </section>
 

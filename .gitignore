@@ -3,16 +3,17 @@
 # dependencies
 node_modules/
 .idea/
+<<<<<<< HEAD
 .idea/*
 # testing
 /coverage
+=======
+>>>>>>> develop
 
 # production
-
 .idea/workspace.xml
-
-
-.idea/workspace.xml
+#package.json
+package-lock.json
 # misc
 .DS_Store
 .env.local
@@ -20,9 +21,8 @@ node_modules/
 .env.test.local
 .env.production.local
 
-npm-debug.log*
 
+npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
 
