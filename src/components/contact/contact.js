@@ -2,7 +2,7 @@ import React, {Component } from 'react';
 import { Link, Route, Prompt } from 'react-router-dom'
 import './contact.css'
 
-import lowerLine from './../../assets/img/blackLine.png'
+import lowerLine from '../team/blackLine.png'
 import mapPin from './../../assets/img/mapPin.png'
 import arrow from './../../assets/img/arrow.png'
 import phone from './../../assets/img/phone.png'
@@ -10,7 +10,7 @@ import phone from './../../assets/img/phone.png'
 export default class Contact extends Component {
   render() {
     return (
-        <section className="contact">
+        <section className="contact" id={'contact'} >
             <div className='container'>
                 <div className='row'>
                     <h1 className='contactTitle'>Contact Us</h1>

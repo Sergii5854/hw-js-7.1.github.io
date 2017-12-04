@@ -2,7 +2,7 @@ import React, {Component } from 'react';
 import { Link, Route, Prompt } from 'react-router-dom'
 import './team.css'
 
-import lowerLine from './../../assets/img/blackLine.png'
+import lowerLine from './blackLine.png'
 import founder from './../../assets/img/Sergij.jpg'
 import twitter from './../../assets/img/twitterIcon.png'
 import icon from './../../assets/img/pinterestIcon.png'
@@ -17,14 +17,14 @@ export default class Team extends Component {
             <div className='container'>
                 <div className='row'>
                     <h1 className='teamTitle'>Our Wonderful Team</h1>
-                    <img src={lowerLine}/>
+
                 </div>
                 <div className='rowTeam'>
                     <div className='founder'>
                         <img className='founderImg' src={founder}/>
-                        <h4>Sergiit</h4>
-                        <h5>CEO / Founder</h5>
-                        <p>
+                        <h4 className="founderName">Sergii</h4>
+                        <h5 className="founderPosition">CEO / Founder</h5>
+                        <p className="founderDescription">
                             Neque porro quisquam est qui<br/>
                             dolorem ipsum quia dolor sit<br/>
                             amet, consectetur, adipisci velit...
@@ -49,9 +49,9 @@ export default class Team extends Component {
                     </div>
                     <div className='founder'>
                         <img className='founderImg' src={founder}/>
-                        <h4>Sergii</h4>
-                        <h5>CEO / Founder</h5>
-                        <p>
+                        <h4 className="founderName">Sergii</h4>
+                        <h5 className="founderPosition">CEO / Founder</h5>
+                        <p className="founderDescription">
                             Neque porro quisquam est qui<br/>
                             dolorem ipsum quia dolor sit<br/>
                             amet, consectetur, adipisci velit...
@@ -76,9 +76,9 @@ export default class Team extends Component {
                     </div>
                     <div className='founder'>
                         <img className='founderImg' src={founder}/>
-                        <h4>Sergii</h4>
-                        <h5>CEO / Founder</h5>
-                        <p>
+                        <h4 className="founderName">Sergii</h4>
+                        <h5 className="founderPosition">CEO / Founder</h5>
+                        <p className="founderDescription">
                             Neque porro quisquam est qui<br/>
                             dolorem ipsum quia dolor sit<br/>
                             amet, consectetur, adipisci velit...
@@ -103,9 +103,9 @@ export default class Team extends Component {
                     </div>
                     <div className='founder'>
                         <img className='founderImg' src={founder}/>
-                        <h4>Sergii</h4>
-                        <h5>CEO / Founder</h5>
-                        <p>
+                        <h4 className="founderName">Sergii</h4>
+                        <h5 className="founderPosition">CEO / Founder</h5>
+                        <p className="founderDescription">
                             Neque porro quisquam est qui<br/>
                             dolorem ipsum quia dolor sit<br/>
                             amet, consectetur, adipisci velit...
