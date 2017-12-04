@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Route, NavLink, Switch, Redirect } from 'react-router-dom'
+import './header.css'
 
 import logo from './logo.png'
 
@@ -16,15 +17,18 @@ export default class Header extends Component {
         <section className="header">
           <header className='App-header'>
             <img src={logo} className='App-logo' alt='logo'/>
-            <h2>Welcome to React</h2>
+            <h1><span className='logo'>Pro</span>Jex</h1>
+            <h2>One Page Business Theme</h2>
           </header>
           <nav className='nav'>
             <NavLink exact activeClassName='active' to='/'>Home</NavLink>
             <NavLink activeClassName='active' to='/Services'>Services</NavLink>
+              
+
             <NavLink activeClassName='active' to='/Team'>Our Team</NavLink>
             <NavLink activeClassName='active' to='/Portfolio'>Portfolio</NavLink>
             <NavLink activeClassName='active' to='/News'>News</NavLink>
-            <NavLink activeClassName='active' to='/contact'>Contact</NavLink>
+            <NavLink activeClassName='active' to='/contact'>Contact Us</NavLink>
           </nav>
           <main className='main-content'>
             <Switch>
@@ -36,7 +40,7 @@ export default class Header extends Component {
               <Route path='/Contact' component={Contact}/>
 
               <Route path='*' render={(match) => {
-                console.log('arguments', match)
+                console.log('arguments', match);
                 if (match.location.pathname === '/team') {
                   return (
                       <Redirect to='/our-team'/>
