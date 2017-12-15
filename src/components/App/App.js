@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {HashRouter} from 'react-router-dom'
+import {HashRouter, Route} from 'react-router-dom'
+
 import './App.css'
 
 import Header from "./../header/header";
@@ -16,14 +17,36 @@ class App extends Component {
     return (
         <HashRouter>
           <div className="App">
+
+
+
             <Header />
-            <Hero />
-            <Services />
-            <Portfolio />
-            <Team/>
-            <News />
-            <Contact />
-            <Footer />
+
+              <Route exact path='/' component={Hero}/>
+              <Route path='/Services' component={Services}/>
+              <Route path='/Team' component={Team}/>
+              <Route path='/Portfolio' component={Portfolio}/>
+              <Route path='/News' component={News}/>
+              <Route path='/Contact' component={Contact}/>
+
+              {/*<Route path='*' render={(match) => {*/}
+              {/*console.log('arguments', match);*/}
+              {/*if (match.location.pathname === '/team') {*/}
+              {/*return (*/}
+              {/*<Redirect to='/our-team'/>*/}
+              {/*)*/}
+              {/*}*/}
+              {/*return (*/}
+              {/*<div>Page not found</div>*/}
+              {/*)*/}
+              {/*}}/>*/}
+            {/*<Hero />*/}
+            {/*<Services />*/}
+            {/*<Portfolio />*/}
+            {/*<Team/>*/}
+            {/*<News />*/}
+            {/*<Contact />*/}
+            {/*<Footer />*/}
           </div>
         </HashRouter>
     );

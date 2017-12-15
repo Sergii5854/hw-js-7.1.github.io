@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1be6eb40-c701-43ae-a97b-a8e9ff919d72" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/img/Sergij.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/portfolio/portfolio.scss" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/contact/contact.scss" />
@@ -29,6 +30,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/header/header.css" afterPath="$PROJECT_DIR$/src/components/header/header.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/news/news.scss" afterPath="$PROJECT_DIR$/src/components/news/news.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/portfolio/portfolio.js" afterPath="$PROJECT_DIR$/src/components/portfolio/portfolio.js" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/news/news.css" afterPath="$PROJECT_DIR$/src/components/news/news.css" />
+>>>>>>> develop
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,10 +66,24 @@
             <state relative-caret-position="120">
               <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
               <folding />
+<<<<<<< HEAD
+=======
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+>>>>>>> develop
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,6 +94,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> develop
       <file leaf-file-name="team.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/team/team.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,8 +136,8 @@
         <option value="$PROJECT_DIR$/src/components/hero/hero.js" />
         <option value="$PROJECT_DIR$/src/components/header/header.js" />
         <option value="$PROJECT_DIR$/src/components/header/header.scss" />
-        <option value="$PROJECT_DIR$/src/components/team/team.js" />
         <option value="$PROJECT_DIR$/src/components/team/team.scss" />
+        <option value="$PROJECT_DIR$/src/components/team/team.js" />
       </list>
     </option>
   </component>
@@ -130,8 +151,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="85" />
-    <option name="y" value="208" />
+    <option name="x" value="45" />
+    <option name="y" value="76" />
     <option name="width" value="1266" />
     <option name="height" value="628" />
   </component>
@@ -252,12 +273,18 @@
       <workItem from="1512374890270" duration="1473000" />
       <workItem from="1512376755370" duration="326000" />
       <workItem from="1512383806367" duration="721000" />
-      <workItem from="1512384829328" duration="730000" />
+      <workItem from="1512384829328" duration="1694000" />
+      <workItem from="1512386529681" duration="152000" />
+      <workItem from="1512462274007" duration="127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="27117000" />
+=======
+    <option name="totallyTimeSpent" value="28359000" />
+>>>>>>> develop
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -309,13 +336,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/service-worker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css" />
     <entry file="file://$PROJECT_DIR$/src/components/App/App.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -459,7 +479,10 @@
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/assets/img/teamMember.png" />
+=======
+>>>>>>> develop
     <entry file="file://$PROJECT_DIR$/src/assets/img/twitterIcon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -560,9 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -591,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,6 +622,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/team/team.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/img/teamMember.png" />
     <entry file="file://$PROJECT_DIR$/src/components/team/team.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -611,10 +639,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/team/team.scss">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="105">
           <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> develop
           <folding />
         </state>
       </provider>

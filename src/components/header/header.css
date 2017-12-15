@@ -1,4 +1,4 @@
-.header .navbar-static-top {
+.navbar-static-top {
   min-height: 111px;
   background-color: #ff5959;
   color: white;
@@ -6,7 +6,7 @@
   width: 100%;
   border: none; }
 
-.header .navbar-nav > li > a {
+.navbar-nav > li > a {
   line-height: 100%;
   padding: 10px 15px;
   border-radius: 10px;
@@ -14,23 +14,23 @@
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
-.header .navbar-nav > li > a:hover {
+.navbar-nav > li > a:hover {
   color: white !important;
   background-color: #fc7d7d !important; }
 
 @media (max-width: 767px) {
-  .header .navbar-nav > li > a {
+  .navbar-nav > li > a {
     line-height: 20px;
     padding-top: 10px;
     padding-bottom: 10px; } }
 
-.header .navbar-default .navbar-brand, .header .navbar-brand:hover {
+.navbar-default .navbar-brand, .navbar-brand:hover {
   color: white !important; }
 
-.header .navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a {
   color: white; }
 
-.header .navbar h1 {
+.navbar h1 {
   font-weight: 400;
   font-size: 34px;
   display: inline-block;
@@ -38,28 +38,28 @@
   margin-top: 0px !important;
   padding-top: 0px; }
 
-.header .navbar-brand {
+.navbar-brand {
   padding: 0px 15px; }
 
-.header .navbarh1:hover {
+.navbarh1:hover {
   color: white; }
 
-.header .navbar h2 {
+.navbar h2 {
   font-weight: 700;
   font-size: 14px;
   margin-top: 0px; }
 
-.header .navbar-default .navbar-nav > .active > a, .header .navbar-default .navbar-nav > .active > a:focus, .header .navbar-default .navbar-nav > .active > a:hover {
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
   color: white !important;
   background-color: #fc7d7d !important; }
 
-.header .navbar-default .navbar-nav > .open > a, .header .navbar-default .navbar-nav > .open > a:focus, .header .navbar-default .navbar-nav > .open > a:hover {
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
   color: white;
   background-color: #fc7d7d; }
 
-.header .navbar-default .navbar-toggle:focus, .header .navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: transparent; }
 
-.header .navbar-default .navbar-toggle .icon-bar {
+.navbar-default .navbar-toggle .icon-bar {
   background-color: white;
   text-align: center; }

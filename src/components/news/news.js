@@ -2,7 +2,7 @@ import React, {Component } from 'react';
 import { Link, Route, Prompt } from 'react-router-dom'
 import './news.css'
 
-import WhiteLine from './../../assets/img/whiteLine.png'
+import WhiteLine from '../portfolio/whiteLine.png'
 import imgNews from './../../assets/img/IMG-here5.png'
 import calendar from './../../assets/img/calendar.png'
 import author from './../../assets/img/author.png'

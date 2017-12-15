@@ -2,7 +2,7 @@ import React, {Component } from 'react';
 import { Link, Route, Prompt } from 'react-router-dom'
 import './portfolio.css'
 
-import WhiteLine from './../../assets/img/whiteLine.png'
+
 import redIcon from './../../assets/img/viewMore.png'
 import redIconStar from './../../assets/img/fave.png'
 
@@ -13,7 +13,6 @@ export default class Portfolio extends Component {
             <div className='container'>
                 <div className='row'>
                     <h1 className='portfolioTitle'>Our Portfolio</h1>
-                    <img src={WhiteLine}/>
                 </div>
                 <div className='rowImg'>
                     <div className='blockImg'>
