@@ -1,5 +1,5 @@
 import React, {Component } from 'react';
-import { Link, Route, Prompt } from 'react-router-dom'
+import ScrollableAnchor from 'react-scrollable-anchor'
 import './news.css'
 
 import WhiteLine from './../../assets/img/whiteLine.png'
@@ -11,6 +11,7 @@ import comments from './../../assets/img/comments.png'
 export default class News extends Component {
   render() {
     return (
+        <ScrollableAnchor id={'News'}>
         <section className="news">
             <div className='container'>
                 <div className='row'>
@@ -112,6 +113,7 @@ export default class News extends Component {
 
             </div>
         </section>
+        </ScrollableAnchor>
     );
   }
 };

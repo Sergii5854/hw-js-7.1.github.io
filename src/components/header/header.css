@@ -23,14 +23,19 @@
     line-height: 20px;
     padding-top: 10px;
     padding-bottom: 10px; } }
+<<<<<<< HEAD
 
 .navbar-default .navbar-brand, .navbar-brand:hover {
   color: white !important; }
+=======
+.logo__section, .logo__section:hover {
+  color: white; }
+>>>>>>> f63b881fe7dcd57182287236be031a948f8fe1d1
 
 .navbar-default .navbar-nav > li > a {
   color: white; }
 
-.navbar h1 {
+.navbar h3 {
   font-weight: 400;
   font-size: 34px;
   display: inline-block;
@@ -38,7 +43,7 @@
   margin-top: 0px !important;
   padding-top: 0px; }
 
-.navbar-brand {
+.logo__section {
   padding: 0px 15px; }
 
 .navbarh1:hover {
