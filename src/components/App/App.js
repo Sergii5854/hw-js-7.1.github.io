@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {HashRouter} from 'react-router-dom'
+
 
 import './App.css'
 
@@ -15,18 +15,18 @@ import Footer from "./../footer/footer";
 class App extends Component {
   render() {
     return (
-        <HashRouter>
-          <div className="App">
-            <Header />
-            <Hero />
-            <Services />
-            <Portfolio />
-            <Team/>
-            <News />
-            <Contact />
-            <Footer />
-          </div>
-        </HashRouter>
+
+        <div className="App">
+          <Header />
+          <Hero />
+          <Services />
+          <Portfolio />
+          <Team/>
+          <News />
+          <Contact />
+          <Footer />
+        </div>
+
     );
   }
 }

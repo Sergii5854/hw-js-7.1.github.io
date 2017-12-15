@@ -1,5 +1,5 @@
 import React, {Component } from 'react';
-import { Link, Route, Prompt } from 'react-router-dom'
+import ScrollableAnchor from 'react-scrollable-anchor'
 import './contact.css'
 
 import lowerLine from '../team/blackLine.png'
@@ -10,7 +10,8 @@ import phone from './../../assets/img/phone.png'
 export default class Contact extends Component {
   render() {
     return (
-        <section className="contact" id={'contact'} >
+        <ScrollableAnchor id={'Contact'}>
+        <section className="contact"  >
             <div className='container'>
                 <div className='row'>
                     <h1 className='contactTitle'>Contact Us</h1>
@@ -63,6 +64,7 @@ export default class Contact extends Component {
                 </div>
             </div>
         </section>
+        </ScrollableAnchor>
     );
   }
 };

@@ -1,10 +1,12 @@
 import React, {Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor'
 import './hero.css'
 import MacHeader from './../../assets/img/macHeaderAssett.png'
 
 export default class Hero extends Component {
   render() {
     return (
+        <ScrollableAnchor id={'Home'}>
         <section className='hero'>
             <div className="blockHero">
               <div className="container">
@@ -24,6 +26,7 @@ export default class Hero extends Component {
               </div>
             </div>
         </section>
+        </ScrollableAnchor>
     );
   }
 };
