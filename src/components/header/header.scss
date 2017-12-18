@@ -1,18 +1,63 @@
+.App-header {
+  height: auto;
+  text-align: center;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 300px;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  overflow: auto;
+}
+.logoBlock {
+  display: flex;
+  margin: 0 auto;
+}
+.App-logo {
+  margin-top: 10px;
+}
+.logo__section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+.logo {
+  padding: 20px 0 0 0;
+}
 .header{
-
-
-}
-.navbar-static-top
-{
-  min-height: 111px;
   background-color: #ff5959;
-  color: white;
-  display: table;
-  width: 100%;
-  border: none;
 }
-
-.navbar-nav > li > a {
+h2 {
+  margin: 5px 0 5px 0;
+  font-size: 18px;
+  color: rgb(232,232,232);
+  font-family: "Quicksand-Bold";
+  font-weight: bold;
+}
+h3 {
+  font-size: 30px!important;
+  color: rgb(232,232,232);
+  font-family: "Quicksand-Light";
+}
+span.logo {
+  font-weight: lighter;
+}
+nav a {
+  margin: 0 25px 0 0;
+  font-size: 18px;
+  line-height: 49px;
+  color: rgb(232,232,232);
+  font-family: "Quicksand-Bold";
+  font-weight: bold;
+  text-align: right;
+}
+nav a.open {
   line-height: 100%;
   padding: 10px 15px;
   border-radius: 10px;
@@ -20,73 +65,11 @@
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-
-.navbar-nav > li > a:hover
-{
+nav a.open:hover {
   color: white !important;
   background-color: #fc7d7d !important;
 }
-
-@media (max-width: 767px) {
-  .navbar-nav > li > a {
-    line-height: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;}
+.logo__section{
+  padding: 0 15px;
 }
 
-.navbar-default .navbar-brand, .navbar-brand:hover
-{
-  color: white !important;
-}
-
-.navbar-default .navbar-nav>li>a
-{
-  color: white;
-}
-
-.navbar h1
-{
-  font-weight: 400;
-  font-size: 34px;
-  display: inline-block;
-  margin-bottom: -5px;
-  margin-top: 0px !important;
-  padding-top: 0px;
-}
-
-.navbar-brand
-{
-  padding: 0px 15px;
-}
-
-.navbarh1:hover
-{
-  color: white;
-}
-
-.navbar h2
-{
-  font-weight: 700;
-  font-size: 14px;
-  margin-top: 0px;
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
-{
-  color: white !important;
-  background-color: #fc7d7d !important;
-}
-
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-  color: white;
-  background-color: #fc7d7d;
-}
-
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: transparent;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
-  text-align:center ;
-}

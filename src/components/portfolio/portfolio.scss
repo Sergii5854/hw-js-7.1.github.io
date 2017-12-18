@@ -41,11 +41,46 @@
 .animation {
   display: table;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
 
+.titleAnimation {
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+h3 {
+  margin: 5px 0 5px 0;
+}
+.icon {
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  font-family: Quicksand, sans-serif;
+  font-size: 18px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+
+}
+.blockImg {
+  padding: 10px 0 10px 0;
+}
+div#portfolio3 {
+  margin: 40px -40px 40px 0;
+}
 #portfolio h3 {
   font-size: 24px;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
 #portfolio1 {
   width: 558px;
@@ -53,7 +88,8 @@
   max-width: 100%;
   max-height: 278px;
   display: block;
-  position: relative; }
+  position: relative;
+}
 
 #portfolio1:after {
   content: "";
@@ -68,7 +104,8 @@
   position: absolute;
   z-index: 0;
   -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
+  transition: all 0.5s ease;
+}
 
 #portfolio1:hover:after {
   content: "";
@@ -82,7 +119,8 @@
   right: 0;
   position: absolute;
   z-index: 0;
-  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.2); }
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.2);
+}
 
 #portfolio2 {
   width: 558px;
@@ -90,7 +128,8 @@
   max-width: 100%;
   max-height: 278px;
   display: block;
-  position: relative; }
+  position: relative;
+}
 
 #portfolio2:after {
   content: " ";
@@ -104,7 +143,8 @@
   position: absolute;
   z-index: 0;
   -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
+  transition: all 0.5s ease;
+}
 
 #portfolio2:hover::after {
   content: " ";
@@ -117,7 +157,8 @@
   right: 0;
   position: absolute;
   z-index: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; }
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
 
 #portfolio3 {
   width: 271px;
@@ -125,7 +166,8 @@
   max-width: 100%;
   max-height: 286px;
   display: block;
-  position: relative; }
+  position: relative;
+}
 
 #portfolio3:after {
   content: " ";
@@ -139,7 +181,8 @@
   position: absolute;
   z-index: 0;
   -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
+  transition: all 0.5s ease;
+}
 
 #portfolio3:hover::after {
   content: " ";
@@ -151,7 +194,8 @@
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: 0; }
+  z-index: 0;
+}
 
 #portfolio4 {
   width: 271px;
@@ -159,7 +203,8 @@
   max-width: 100%;
   max-height: 286px;
   display: block;
-  position: relative; }
+  position: relative;
+}
 
 #portfolio4:after {
   content: " ";
@@ -173,7 +218,8 @@
   position: absolute;
   z-index: 0;
   -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
+  transition: all 0.5s ease;
+}
 
 #portfolio4:hover::after {
   content: " ";
@@ -185,7 +231,8 @@
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: 0; }
+  z-index: 0;
+}
 
 #portfolio5 {
   width: 271px;
@@ -193,7 +240,8 @@
   max-width: 100%;
   max-height: 286px;
   display: block;
-  position: relative; }
+  position: relative;
+}
 
 #portfolio5:after {
   content: " ";
@@ -207,7 +255,8 @@
   position: absolute;
   z-index: 0;
   -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
+  transition: all 0.5s ease;
+}
 
 #portfolio5:hover::after {
   content: " ";
@@ -219,7 +268,8 @@
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: 0; }
+  z-index: 0;
+}
 
 #portfolio6 {
   width: 271px;
@@ -227,7 +277,8 @@
   max-width: 100%;
   max-height: 286px;
   display: block;
-  position: relative; }
+  position: relative;
+}
 
 #portfolio6:after {
   content: " ";
@@ -241,7 +292,8 @@
   position: absolute;
   z-index: 0;
   -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
+  transition: all 0.5s ease;
+}
 
 #portfolio6:hover::after {
   content: " ";
@@ -253,4 +305,5 @@
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: 0; }
+  z-index: 0;
+}

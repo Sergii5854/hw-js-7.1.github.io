@@ -1,5 +1,4 @@
- import React, {Component} from 'react';
-import {HashRouter, Route} from 'react-router-dom'
+import React, {Component} from 'react';
 
 import './App.css'
 
@@ -13,44 +12,23 @@ import Contact from "./../contact/contact";
 import Footer from "./../footer/footer";
 
 class App extends Component {
-  render() {
-    return (
-        <HashRouter>
-          <div className="App">
+    render() {
+        return (
 
+            <div className="App">
+              <Header />
+              <Hero />
+              <Services />
+              <Portfolio />
+              <Team/>
+              <News />
+              <Contact />
+              <Footer />
+            </div>
 
-
-            <Header />
-
-              <Route exact path='/' component={Hero}/>
-              <Route path='/Services' component={Services}/>
-              <Route path='/Team' component={Team}/>
-              <Route path='/Portfolio' component={Portfolio}/>
-              <Route path='/News' component={News}/>
-              <Route path='/Contact' component={Contact}/>
-
-              {/*<Route path='*' render={(match) => {*/}
-              {/*console.log('arguments', match);*/}
-              {/*if (match.location.pathname === '/team') {*/}
-              {/*return (*/}
-              {/*<Redirect to='/our-team'/>*/}
-              {/*)*/}
-              {/*}*/}
-              {/*return (*/}
-              {/*<div>Page not found</div>*/}
-              {/*)*/}
-              {/*}}/>*/}
-            {/*<Hero />*/}
-            {/*<Services />*/}
-            {/*<Portfolio />*/}
-            {/*<Team/>*/}
-            {/*<News />*/}
-            {/*<Contact />*/}
-            {/*<Footer />*/}
-          </div>
-        </HashRouter>
-    );
-  }
+        );
+    }
 }
 
 export default App;
+

@@ -1,5 +1,5 @@
 import React, {Component } from 'react';
-import { Link, Route, Prompt } from 'react-router-dom'
+import ScrollableAnchor from 'react-scrollable-anchor'
 import './portfolio.css'
 
 
@@ -9,6 +9,7 @@ import redIconStar from './../../assets/img/fave.png'
 export default class Portfolio extends Component {
   render() {
     return (
+        <ScrollableAnchor id={'Portfolio'}>
         <section className="portfolio">
             <div className='container'>
                 <div className='row'>
@@ -44,7 +45,7 @@ export default class Portfolio extends Component {
                 </div>
                 <div className='rowLittleImg'>
                     <div className='blockLittleImg'>
-                        <div id='portfolio3' className='block'>
+                        <div id='portfolio3' className='block firstBlock'>
                             <div className='animation'>
                                 <div className='titleAnimation'>
                                     <h3>Love Conquers All</h3>
@@ -98,6 +99,7 @@ export default class Portfolio extends Component {
                 </div>
             </div>
         </section>
+        </ScrollableAnchor>
     );
   }
 };
