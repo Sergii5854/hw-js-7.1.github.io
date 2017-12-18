@@ -26,8 +26,10 @@
   justify-content: space-around; }
 
 .founder {
+  width: 20%;
   text-align: center;
-  padding: 15px; }
+  padding: 15px;
+  margin-bottom: 30px; }
 
 .founderImg {
   width: 100%;

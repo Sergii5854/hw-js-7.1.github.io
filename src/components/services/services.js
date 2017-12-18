@@ -21,33 +21,33 @@ export default class Services extends Component {
                   <img src={designBulb}/>
                   <h2 className='basicInfoTitle'>HTML 5 & CSS3</h2>
                   <p className='basicInfoDescription'>
-                    Sed fermentum, ante vel sagittis adipiscing,<br/>
-                    purus nisi ultrices dolor, a aliquam nunc lacus<br/>
-                    in turpis. Nunc molestie nisi diam. Donec<br/>
-                    commodo quam sit amet mauris<br/>
-                    pellentesque, in commodo lorem venenatis.<br/>
+                    Sed fermentum, ante vel sagittis adipiscing,
+                    purus nisi ultrices dolor, a aliquam nunc lacus
+                    in turpis. Nunc molestie nisi diam. Donec
+                    commodo quam sit amet mauris
+                    pellentesque, in commodo lorem venenatis.
                   </p>
                 </div>
                 <div className='baseInfoItems'>
                   <img src={designMagnifier}/>
                   <h2 className='basicInfoTitle'>SEO Optimization</h2>
                   <p className='basicInfoDescription'>
-                    Sed fermentum, ante vel sagittis adipiscing,<br/>
-                    purus nisi ultrices dolor, a aliquam nunc lacus<br/>
-                    in turpis. Nunc molestie nisi diam. Donec<br/>
-                    commodo quam sit amet mauris<br/>
-                    pellentesque, in commodo lorem venenatis.<br/>
+                    Sed fermentum, ante vel sagittis adipiscing,
+                    purus nisi ultrices dolor, a aliquam nunc lacus
+                    in turpis. Nunc molestie nisi diam. Donec
+                    commodo quam sit amet mauris
+                    pellentesque, in commodo lorem venenatis.
                   </p>
                 </div>
                 <div className='baseInfoItems'>
                   <img src={designPencil}/>
                   <h2 className='basicInfoTitle'>SEO Optimization</h2>
                   <p className='basicInfoDescription'>
-                    Sed fermentum, ante vel sagittis adipiscing,<br/>
-                    purus nisi ultrices dolor, a aliquam nunc lacus<br/>
-                    in turpis. Nunc molestie nisi diam. Donec<br/>
-                    commodo quam sit amet mauris<br/>
-                    pellentesque, in commodo lorem venenatis.<br/>
+                    Sed fermentum, ante vel sagittis adipiscing,
+                    purus nisi ultrices dolor, a aliquam nunc lacus
+                    in turpis. Nunc molestie nisi diam. Donec
+                    commodo quam sit amet mauris
+                    pellentesque, in commodo lorem venenatis.
                   </p>
                 </div>
               </div>

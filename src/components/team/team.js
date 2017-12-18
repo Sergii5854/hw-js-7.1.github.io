@@ -26,8 +26,8 @@ export default class Team extends Component {
                   <h4 className="founderName">Sergii</h4>
                   <h5 className="founderPosition">CEO / Founder</h5>
                   <p className="founderDescription">
-                    Neque porro quisquam est qui<br/>
-                    dolorem ipsum quia dolor sit<br/>
+                    Neque porro quisquam est qui
+                    dolorem ipsum quia dolor sit
                     amet, consectetur, adipisci velit...
                   </p>
                   <div className='socialIcons'>
@@ -53,8 +53,8 @@ export default class Team extends Component {
                   <h4 className="founderName">Sergii</h4>
                   <h5 className="founderPosition">CEO / Founder</h5>
                   <p className="founderDescription">
-                    Neque porro quisquam est qui<br/>
-                    dolorem ipsum quia dolor sit<br/>
+                    Neque porro quisquam est qui
+                    dolorem ipsum quia dolor sit
                     amet, consectetur, adipisci velit...
                   </p>
                   <div className='socialIcons'>
@@ -80,8 +80,8 @@ export default class Team extends Component {
                   <h4 className="founderName">Sergii</h4>
                   <h5 className="founderPosition">CEO / Founder</h5>
                   <p className="founderDescription">
-                    Neque porro quisquam est qui<br/>
-                    dolorem ipsum quia dolor sit<br/>
+                    Neque porro quisquam est qui
+                    dolorem ipsum quia dolor sit
                     amet, consectetur, adipisci velit...
                   </p>
                   <div className='socialIcons'>
@@ -107,8 +107,8 @@ export default class Team extends Component {
                   <h4 className="founderName">Sergii</h4>
                   <h5 className="founderPosition">CEO / Founder</h5>
                   <p className="founderDescription">
-                    Neque porro quisquam est qui<br/>
-                    dolorem ipsum quia dolor sit<br/>
+                    Neque porro quisquam est qui
+                    dolorem ipsum quia dolor sit
                     amet, consectetur, adipisci velit...
                   </p>
                   <div className='socialIcons'>
