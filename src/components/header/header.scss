@@ -5,7 +5,7 @@
   left: 0;
   display: flex;
   flex-wrap: wrap;
-  flex: 1 1 300px;
+  flex: 1 1 250px;
   flex-direction: row;
   align-items: center;
   align-content: center;
@@ -58,24 +58,29 @@ h3 {
 span.logo {
   font-weight: lighter;
 }
-nav a {
-  margin: 0 25px 0 0;
+.nav{
+  display: flex;
+  flex:1 1 550px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+
+}
+.nav a {
+  padding:  12px  12px  12px  12px;
   font-size: 18px;
   line-height: 49px;
   color: rgb(232,232,232);
   font-family: "Quicksand-Bold";
   font-weight: bold;
   text-align: right;
-}
-nav a.open {
-  line-height: 100%;
-  padding: 10px 15px;
-  border-radius: 10px;
-  margin-top: 10px;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-nav a.open:hover {
+.nav a{
+  padding: 10px 15px 10px 15px  ;
+  border-radius: 10px;
+}
+nav a:hover {
   color: white !important;
   background-color: #fc7d7d !important;
 }
@@ -83,3 +88,15 @@ nav a.open:hover {
   padding: 0 15px;
 }
 
+@media screen and (max-width: 750px){
+  .heroTitle{
+    font-size: 45px;
+  }
+  .nav {
+    justify-content: center;
+  }
+  .nav a {
+    padding: 5px 10px 5px 10px   ;
+    line-height: 30px;
+  }
+}

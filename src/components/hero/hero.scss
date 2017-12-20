@@ -19,12 +19,14 @@
   font-family: 'Droid Sans', sans-serif;
   font-size: 72px;
   margin-bottom: 0px;
+  width: 100%;
 }
 .heroSubTitle{
   font-family: 'Droid Sans', sans-serif;
   font-size: 30px;
   margin-top: 0px;
   margin-bottom: 40px;
+  width: 100%;
 }
 .heroContent{
   margin-top: 0px;
@@ -43,12 +45,20 @@
   align-content: center;
   justify-content: center;
   overflow: auto;
-  padding: 100px 0 100px 0;
-  @media (max-width: 550px){
-    padding: 50px 0;
-  }
-}
 
+}
+.rowInfo{
+  padding: 100px 0 100px 0;
+
+}
+.rowImg{
+
+  padding: 0 20px 50px 20px ;
+
+}
+.rowImg img{
+  width: auto;
+}
 
 .filledButton {
   background-color: #ff5959;
@@ -87,4 +97,13 @@
   text-decoration: none;
   color: white;
   background-color: #ff5959;
+}
+@media (max-width: 550px){
+  .rowInfo {
+    padding: 50px 0;
+  }
+  .rowImg img{
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
