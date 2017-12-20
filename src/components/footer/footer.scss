@@ -1,8 +1,29 @@
-.footer{
-  height: 115px;
-  display: table;
+.footer {
   width: 100%;
-  font-size: 13px;
-  text-align: center;
-  background-color: #ff5959;
+  font-size: 18px;
+  background-color: darkgray;
+  top: 0;
+  left: 0;
+  color: rgb(232,232,232);
+}
+.textBlock {
+  margin-left: 30px;
+  font-family: "Quicksand-Bold";
+  font-weight: bold;
+}
+.footerLogo {
+  display: flex;
+}
+.footerLogo img.App-logo {
+  margin: 0;
+  padding: 5px;
+}
+.footerBlock {
+  height: 115px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  overflow: auto;
 }

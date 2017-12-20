@@ -1,0 +1,100 @@
+.contact {
+  padding-bottom: 30px; }
+
+.contactTitle {
+  display: block;
+  position: relative;
+  font-family: Quicksand, sans-serif;
+  line-height: 20px;
+  text-align: center;
+  margin: 50px 0 70px 0;
+  font-size: 36px;
+  font-weight: 500; }
+  .contactTitle:after {
+    position: absolute;
+    content: '';
+    background: url("./blackLine.png") no-repeat;
+    width: 100%;
+    height: 10px;
+    top: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center bottom; }
+
+.blockForm {
+  width: 48%; }
+
+input {
+  width: 100%;
+  margin: 5px 10px 5px 0;
+  padding: 15px 0 15px 5px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  outline: none; }
+
+textarea {
+  width: 100%;
+  margin: 5px 10px 5px 0;
+  padding: 15px 0 15px 5px;
+  resize: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  outline: none; }
+
+.blockContactInfo {
+  margin: 0 15px 0 5px;
+  width: 48%; }
+
+.rowContactInfo {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 300px;
+  justify-content: space-around; }
+
+.sendMessageBtn {
+  margin-right: 30px;
+  background-color: #ff5959;
+  color: white;
+  padding: 10px 40px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 2px solid #ff5959;
+  display: inline-block;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 18px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.borderButton {
+  color: white;
+  padding: 10px 40px;
+  margin-top: 30px;
+  border: 2px solid #ff5959;
+  border-radius: 10px;
+  display: inline-block;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 18px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.sendMessageBtn:hover {
+  text-decoration: none;
+  color: white;
+  background-color: transparent; }
+
+.borderButton:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #ff5959; }
+
+.arrow {
+  display: flex; }
+
+img.arrowImg {
+  top: 50px; }
+
+p.contactBlock img {
+  padding: 0 10px 0 10px; }

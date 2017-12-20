@@ -26,6 +26,7 @@
   justify-content: space-around; }
 
 .baseInfoItems {
+  max-width: 300px;
   text-align: center;
   padding: 15px; }
 
@@ -47,5 +48,3 @@
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 10px; }
-
-/*# sourceMappingURL=servises.css.map */

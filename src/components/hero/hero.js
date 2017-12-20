@@ -14,7 +14,7 @@ export default class Hero extends Component {
                   <div className="rowInfo">
                     <h1 className="heroTitle">ONE PAGE</h1>
                     <h2 className="heroSubTitle">IS ALL THAT YOU NEED</h2>
-                    <p className="heroContent">Suspendisse mi nisl, adipiscing sit amet tellus sed, auctor aliquet felis. Aenean neque elit, blandit quis tempor eu,<br/>
+                    <p className="heroContent">Suspendisse mi nisl, adipiscing sit amet tellus sed, auctor aliquet felis. Aenean neque elit, blandit quis tempor eu,
                       feugiat rhoncus lectus. Quisque sit amet pretium risus.</p>
                     <a href="#Team" className="filledButton">OUR TEAM</a>
                     <a href="#Contact" className="borderButton">CONTACT US</a>

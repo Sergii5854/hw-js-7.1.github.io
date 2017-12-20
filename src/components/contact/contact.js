@@ -2,7 +2,6 @@ import React, {Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import './contact.css'
 
-import lowerLine from '../team/blackLine.png'
 import mapPin from './../../assets/img/mapPin.png'
 import arrow from './../../assets/img/arrow.png'
 import phone from './../../assets/img/phone.png'
@@ -15,15 +14,14 @@ export default class Contact extends Component {
             <div className='container'>
                 <div className='row'>
                     <h1 className='contactTitle'>Contact Us</h1>
-                    <img src={lowerLine}/>
                 </div>
                 <div className='rowContactInfo'>
                     <div className='blockForm'>
                         <form>
                             <input type='text' name='fname' placeholder='Full Name'/>
-                            <br/>
+                           
                             <input type='text' name='lname' placeholder='Email Address'/>
-                            <br/>
+                           
                             <textarea placeholder='Message' rows='8' id='coment'>
                             </textarea>
                         </form>
@@ -31,35 +29,39 @@ export default class Contact extends Component {
                     <div className='blockContactInfo'>
                         <h2>Information</h2>
                         <p>
-                            Proin nec dignissim tellus,<br/>
-                            ut hendrerit erat. Vivamus ut<br/>
-                            augue ac est sagittis<br/>
-                            ullamcorper a porttitor nibh.<br/>
-                            Donec non tortor consequat,<br/>
-                            sollicitudin odio id,<br/>
-                            vehicula lorem. Suspendisse a<br/>
-                            euismod sem. Mauris rutrum<br/>
-                            arcu a lorem aliquet feugiat.<br/>
-                            Praesent tincidunt lacus at<br/>
-                            nisl pharetra, nec suscipit<br/>
-                            risus lobortis. Nunc vitae<br/>
-                            enim a quam ultrices<br/>
-                            faucibus. Proin sit amet<br/>
-                            condimentum libero, ac<br/>
-                            dignissim enim. Praesent<br/>
+                            Proin nec dignissim tellus,
+                            ut hendrerit erat. Vivamus ut
+                            augue ac est sagittis
+                            ullamcorper a porttitor nibh.
+                            Donec non tortor consequat,
+                            sollicitudin odio id,
+                            vehicula lorem. Suspendisse a
+                            euismod sem. Mauris rutrum
+                            arcu a lorem aliquet feugiat.
+                            Praesent tincidunt lacus at
+                            nisl pharetra, nec suscipit
+                            risus lobortis. Nunc vitae
+                            enim a quam ultrices
+                            faucibus. Proin sit amet
+                            condimentum libero, ac
+                            dignissim enim. Praesent
                             aliquam lacinia dapibus.
                         </p>
-                        <p>
-                            <img src={mapPin}/>
-                            StreetName 163, 254 23 City
-                        </p>
-                        <img className='arrow' src={arrow}/>
-                        <p>
+                        <div className='arrow'>
+                            <p className='contactBlock'>
+                                <img src={mapPin}/>
+                                StreetName 163, 254 23 City
+                            </p>
+                            <img className='arrowImg' src={arrow}/>
+                        </div>
+                        <p className='contactBlock'>
                             <img src={phone}/>
                             (+254) 001 454 333 66
                         </p>
-                        <a href='#' className='sendMessageBtn'>SEND MESSAGE</a>
-                        <a href='#' className='viewMapBtn'>VIEW MAP</a>
+                        <div className='btn'>
+                            <a href='#' className='sendMessageBtn'>SEND MESSAGE</a>
+                            <a href='#' className='viewMapBtn'>VIEW MAP</a>
+                        </div>
                     </div>
                 </div>
             </div>

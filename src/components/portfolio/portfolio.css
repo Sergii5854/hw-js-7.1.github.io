@@ -1,3 +1,36 @@
+.portfolioTitle {
+  display: block;
+  position: relative;
+  font-family: Quicksand, sans-serif;
+  line-height: 20px;
+  text-align: center;
+  margin: 50px 0 70px 0;
+  font-size: 36px;
+  font-weight: 500; }
+  .portfolioTitle:after {
+    position: absolute;
+    content: '';
+    background: url("./whiteLine.png") no-repeat;
+    width: 100%;
+    height: 10px;
+    top: 35px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position: center bottom; }
+
+.rowImg {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 300px;
+  justify-content: space-around; }
+
+.rowLittleImg {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 300px;
+  justify-content: space-around; }
+
 .portfolio {
   background-color: #ff5959; }
 
@@ -5,6 +38,38 @@
   display: table;
   width: 100%;
   height: 100%; }
+
+.titleAnimation {
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto; }
+
+h3 {
+  margin: 5px 0 5px 0; }
+
+.icon {
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  font-family: Quicksand, sans-serif;
+  font-size: 18px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.blockImg {
+  padding: 10px 0 10px 0; }
+
+div#portfolio3 {
+  margin: 40px -40px 40px 0; }
 
 #portfolio h3 {
   font-size: 24px;

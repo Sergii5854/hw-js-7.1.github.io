@@ -6,7 +6,7 @@ node_modules/
 
 # production
 .idea/workspace.xml
-#package.json
+package.json
 package-lock.json
 # misc
 .DS_Store

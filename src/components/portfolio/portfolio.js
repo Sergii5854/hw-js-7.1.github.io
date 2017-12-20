@@ -2,7 +2,7 @@ import React, {Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import './portfolio.css'
 
-import WhiteLine from './../../assets/img/whiteLine.png'
+
 import redIcon from './../../assets/img/viewMore.png'
 import redIconStar from './../../assets/img/fave.png'
 
@@ -14,7 +14,6 @@ export default class Portfolio extends Component {
             <div className='container'>
                 <div className='row'>
                     <h1 className='portfolioTitle'>Our Portfolio</h1>
-                    <img src={WhiteLine}/>
                 </div>
                 <div className='rowImg'>
                     <div className='blockImg'>
@@ -46,7 +45,7 @@ export default class Portfolio extends Component {
                 </div>
                 <div className='rowLittleImg'>
                     <div className='blockLittleImg'>
-                        <div id='portfolio3' className='block'>
+                        <div id='portfolio3' className='block firstBlock'>
                             <div className='animation'>
                                 <div className='titleAnimation'>
                                     <h3>Love Conquers All</h3>

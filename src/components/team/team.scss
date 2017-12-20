@@ -21,10 +21,6 @@
     background-position: center bottom;
   }
 }
-
-
-
-
 .rowTeam {
   display: flex;
   flex-wrap: wrap;
@@ -34,8 +30,10 @@
 }
 
 .founder {
+  width: 20%;
   text-align: center;
   padding: 15px;
+  margin-bottom: 30px;
 }
 
 .founderImg {
@@ -90,7 +88,6 @@
   padding-top: 0px;
   text-align: center;
 }
-
 .socialIcons a {
   margin: 0 5px;
 }
