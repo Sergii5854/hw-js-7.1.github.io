@@ -23,6 +23,7 @@
     line-height: 20px;
     padding-top: 10px;
     padding-bottom: 10px; } }
+
 .navbar-default .navbar-brand, .navbar-brand:hover {
   color: white !important; }
 
@@ -62,5 +63,3 @@
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
   text-align: center; }
-
-/*# sourceMappingURL=header.css.map */
