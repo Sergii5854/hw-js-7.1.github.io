@@ -1,8 +1,9 @@
-.hero{
+.hero {
   color: white;
   background-image: url(./../../assets/img/backgroundImage.png);
   box-sizing: border-box;
 }
+
 .blockHero {
   width: 100%;
   height: auto;
@@ -15,24 +16,28 @@
   justify-content: space-around;
   overflow: auto;
 }
-.heroTitle{
+
+.heroTitle {
   font-family: 'Droid Sans', sans-serif;
   font-size: 72px;
   margin-bottom: 0;
   width: 100%;
 }
-.heroSubTitle{
+
+.heroSubTitle {
   font-family: 'Droid Sans', sans-serif;
   font-size: 30px;
   margin-top: 0;
   margin-bottom: 40px;
   width: 100%;
 }
-.heroContent{
+
+.heroContent {
   margin-top: 0;
   font-size: 24px;
   font-family: "DejaVuSans";
 }
+
 .row {
   width: 100%;
   text-align: center;
@@ -47,16 +52,19 @@
   overflow: auto;
 
 }
-.rowInfo{
+
+.rowInfo {
   padding: 100px 0 100px 0;
 
 }
-.rowImg{
 
-  padding: 0 20px 50px 20px ;
+.rowImg {
+
+  padding: 0 20px 50px 20px;
 
 }
-.rowImg img{
+
+.rowImg img {
   width: auto;
 }
 
@@ -70,7 +78,7 @@
   display: inline-block;
   font-family: 'Droid Sans', sans-serif;
   font-size: 18px;
-  transition:0.5s;
+  transition: 0.5s;
 }
 
 .viewMapBtn {
@@ -82,7 +90,7 @@
   display: inline-block;
   font-family: 'Droid Sans', sans-serif;
   font-size: 18px;
-  transition:0.5s;
+  transition: 0.5s;
 }
 
 .filledButton:hover {
@@ -96,11 +104,12 @@
   color: white;
   background-color: #fc7d7d;
 }
-@media (max-width: 550px){
+
+@media (max-width: 550px) {
   .rowInfo {
     padding: 50px 0;
   }
-  .rowImg img{
+  .rowImg img {
     width: 100%;
     margin-bottom: 50px;
   }

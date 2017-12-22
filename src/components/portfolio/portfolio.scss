@@ -8,7 +8,7 @@
   font-size: 36px;
   font-weight: 500;
 
-  &:after{
+  &:after {
     position: absolute;
     content: '';
     background: url('./whiteLine.png') no-repeat;
@@ -21,6 +21,7 @@
     background-position: center bottom;
   }
 }
+
 .rowImg {
   display: flex;
   flex-wrap: wrap;
@@ -28,6 +29,7 @@
   justify-content: space-around;
 
 }
+
 .rowLittleImg {
   display: flex;
   flex-wrap: wrap;
@@ -38,6 +40,7 @@
 .portfolio {
   background-color: #fc7d7d;
 }
+
 .animation {
   display: table;
   width: 100%;
@@ -58,6 +61,7 @@
   justify-content: center;
   overflow: auto;
 }
+
 h3 {
   display: block;
   margin: 5px 0 5px 0;
@@ -97,12 +101,15 @@ h3 {
     background-repeat: no-repeat;
   }
 }
+
 .blockImg {
   padding: 10px 0 10px 0;
 }
+
 div.portfolio3 {
   margin: 40px -40px 40px 0;
 }
+
 .portfolio h3 {
   font-size: 24px;
   font-weight: 700;

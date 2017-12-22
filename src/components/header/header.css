@@ -9,8 +9,7 @@
   flex-direction: row;
   align-items: center;
   align-content: center;
-  justify-content: space-around;
-  overflow: auto; }
+  justify-content: space-around; }
 
 .logoBlock {
   display: flex;
@@ -22,7 +21,6 @@
 .logo__section {
   align-items: flex-start;
   justify-content: center;
-  overflow: auto;
   margin: 20px 0; }
 
 .logo__wrap__desc {
@@ -65,7 +63,7 @@ span.logo {
   justify-content: flex-end; }
 
 .nav a {
-  padding: 12px  12px  12px  12px;
+  padding: 12px 12px 12px 12px;
   font-size: 18px;
   line-height: 49px;
   color: #e8e8e8;

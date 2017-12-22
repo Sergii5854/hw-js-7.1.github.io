@@ -10,93 +10,106 @@
   align-items: center;
   align-content: center;
   justify-content: space-around;
-  overflow: auto;
 }
+
 .logoBlock {
   display: flex;
   margin: 0 auto;
 }
+
 .App-logo {
   margin-top: 10px;
 }
+
 .logo__section {
   align-items: flex-start;
   justify-content: center;
-  overflow: auto;
   margin: 20px 0;
 }
-.logo__wrap__desc{
+
+.logo__wrap__desc {
   text-align: left;
-  padding:0 10px;
+  padding: 0 10px;
   display: flex;
 }
+
 .logo {
   padding: 20px 0 0 0;
 }
-.logo__title{
+
+.logo__title {
   padding: 5px 0 0 10px;
 }
-.logo-sub__title{
+
+.logo-sub__title {
   margin: 0;
-  padding:0 0;
+  padding: 0 0;
 }
-.header{
-  background-color:  #fc7d7d;
+
+.header {
+  background-color: #fc7d7d;
 }
+
 h2 {
   margin: 5px 0 5px 0;
   font-size: 18px;
-  color: rgb(232,232,232);
+  color: rgb(232, 232, 232);
   font-family: "Quicksand-Bold";
   font-weight: bold;
 }
+
 h3 {
-  font-size: 30px!important;
-  color: rgb(232,232,232);
+  font-size: 30px !important;
+  color: rgb(232, 232, 232);
   font-family: "Quicksand-Light";
 }
+
 span.logo {
   font-weight: lighter;
 }
-.nav{
+
+.nav {
   display: flex;
-  flex:1 1 550px;
+  flex: 1 1 550px;
   flex-wrap: wrap;
   justify-content: flex-end;
 
-
 }
+
 .nav a {
-  padding:  12px  12px  12px  12px;
+  padding: 12px 12px 12px 12px;
   font-size: 18px;
   line-height: 49px;
-  color: rgb(232,232,232);
+  color: rgb(232, 232, 232);
   font-family: "Quicksand-Bold";
   font-weight: bold;
   text-align: right;
   transition: all 0.5s ease;
 }
-.nav a{
-  padding: 10px 15px 10px 15px  ;
+
+.nav a {
+  padding: 10px 15px 10px 15px;
   border-radius: 10px;
 }
+
 nav a:hover {
   color: white !important;
   background-color: #ff5959 !important;
 }
-.logo__section{
+
+.logo__section {
   padding: 0 15px;
 }
 
-@media screen and (max-width: 750px){
-  .heroTitle{
+@media screen and (max-width: 750px) {
+  .heroTitle {
     font-size: 45px;
   }
   .nav {
     justify-content: center;
   }
   .nav a {
-    padding: 5px 10px 5px 10px   ;
+    padding: 5px 10px 5px 10px;
     line-height: 30px;
   }
 }

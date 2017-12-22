@@ -22,7 +22,7 @@ export default class Team extends Component {
               </div>
               <div className='rowTeam'>
                 <div className='founder'>
-                  <img className='founderImg' src={founder}/>
+                  <img className='founderImg' src={founder}  alt="founderImg"/>
                   <h4 className="founderName">Sergii</h4>
                   <h5 className="founderPosition">CEO / Founder</h5>
                   <p className="founderDescription">
@@ -32,24 +32,24 @@ export default class Team extends Component {
                   </p>
                   <div className='socialIcons'>
                     <a href='#twitter'>
-                      <img src={twitter}/>
+                      <img src={twitter} alt="twitter"/>
                     </a>
                     <a href='#icon'>
-                      <img src={icon}/>
+                      <img src={icon} alt="icon"/>
                     </a>
                     <a href='#facebook'>
-                      <img src={facebook}/>
+                      <img src={facebook} alt="facebook"/>
                     </a>
                     <a href='#googlePlus'>
-                      <img src={googlePlus}/>
+                      <img src={googlePlus} alt="googlePlus"/>
                     </a>
                     <a href='#linked'>
-                      <img src={linked}/>
+                      <img src={linked} alt="linked"/>
                     </a>
                   </div>
                 </div>
                 <div className='founder'>
-                  <img className='founderImg' src={founder}/>
+                  <img className='founderImg' src={founder} alt="founder"/>
                   <h4 className="founderName">Sergii</h4>
                   <h5 className="founderPosition">CEO / Founder</h5>
                   <p className="founderDescription">
@@ -59,24 +59,24 @@ export default class Team extends Component {
                   </p>
                   <div className='socialIcons'>
                     <a href='#twitter'>
-                      <img src={twitter}/>
+                      <img src={twitter}  alt="twitter"/>
                     </a>
                     <a href='#icon'>
-                      <img src={icon}/>
+                      <img src={icon} alt="icon"/>
                     </a>
                     <a href='#facebook'>
-                      <img src={facebook}/>
+                      <img src={facebook} alt="facebook"/>
                     </a>
                     <a href='#googlePlus'>
-                      <img src={googlePlus}/>
+                      <img src={googlePlus} alt="googlePlus"/>
                     </a>
                     <a href='#linked'>
-                      <img src={linked}/>
+                      <img src={linked} alt="linked"/>
                     </a>
                   </div>
                 </div>
                 <div className='founder'>
-                  <img className='founderImg' src={founder}/>
+                  <img className='founderImg' src={founder} alt="founder"/>
                   <h4 className="founderName">Sergii</h4>
                   <h5 className="founderPosition">CEO / Founder</h5>
                   <p className="founderDescription">
@@ -86,24 +86,24 @@ export default class Team extends Component {
                   </p>
                   <div className='socialIcons'>
                     <a href='#twitter'>
-                      <img src={twitter}/>
+                      <img src={twitter}  alt="twitter"/>
                     </a>
                     <a href='#icon'>
-                      <img src={icon}/>
+                      <img src={icon} alt="icon"/>
                     </a>
                     <a href='#facebook'>
-                      <img src={facebook}/>
+                      <img src={facebook} alt="facebook"/>
                     </a>
                     <a href='#googlePlus'>
-                      <img src={googlePlus}/>
+                      <img src={googlePlus} alt="googlePlus"/>
                     </a>
                     <a href='#linked'>
-                      <img src={linked}/>
+                      <img src={linked} alt="linked"/>
                     </a>
                   </div>
                 </div>
                 <div className='founder'>
-                  <img className='founderImg' src={founder}/>
+                  <img className='founderImg' src={founder} alt="founder"/>
                   <h4 className="founderName">Sergii</h4>
                   <h5 className="founderPosition">CEO / Founder</h5>
                   <p className="founderDescription">
@@ -113,19 +113,19 @@ export default class Team extends Component {
                   </p>
                   <div className='socialIcons'>
                     <a href='#twitter'>
-                      <img src={twitter}/>
+                      <img src={twitter} alt="twitter"/>
                     </a>
                     <a href='#icon'>
-                      <img src={icon}/>
+                      <img src={icon} alt="icon"/>
                     </a>
                     <a href='#facebook'>
-                      <img src={facebook}/>
+                      <img src={facebook} alt="facebook"/>
                     </a>
                     <a href='#googlePlus'>
-                      <img src={googlePlus}/>
+                      <img src={googlePlus} alt="googlePlus"/>
                     </a>
                     <a href='#linked'>
-                      <img src={linked}/>
+                      <img src={linked} alt="linked"/>
                     </a>
                   </div>
                 </div>

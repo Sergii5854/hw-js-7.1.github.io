@@ -3,6 +3,7 @@
   width: 100%;
   padding-bottom: 30px;
 }
+
 .contactTitle {;
   display: block;
   position: relative;
@@ -13,7 +14,7 @@
   font-size: 36px;
   font-weight: 500;
 
-  &:after{
+  &:after {
     position: absolute;
     content: '';
     background: url('./blackLine.png') no-repeat;
@@ -26,23 +27,28 @@
     background-position: center bottom;
   }
 }
+
 .blockContactInfo h2 {
   color: black;
   font-size: 20px;
 }
+
 .rowContactInfo {
   display: flex;
   flex-wrap: wrap;
   flex: 1 1 300px;
   justify-content: space-around;
 }
+
 .blockForm {
   max-width: 500px;
 }
+
 .blockContactInfo {
   max-width: 500px;
   margin: 0 15px 0 5px;
 }
+
 input {
   width: 100%;
   margin: 5px 10px 5px 0;
@@ -52,6 +58,7 @@ input {
   border-radius: 10px;
   outline: none;
 }
+
 textarea {
   width: 100%;
   margin: 5px 10px 5px 0;
@@ -62,6 +69,7 @@ textarea {
   font-size: 18px;
   outline: none;
 }
+
 .sendMessageBtn {
   margin-right: 30px;
   background-color: #fc7d7d;
@@ -101,18 +109,22 @@ textarea {
   color: white;
   background-color: #fc7d7d;
 }
+
 .arrow {
   display: flex;
   margin-top: 25px;
 }
+
 img.arrowImg {
   position: relative;
   top: 5px;
   left: 10px;
 }
+
 .contactBlock {
   margin: 0;
 }
+
 .contactBlock img {
   padding: 0 10px 0 0;
 }

@@ -12,22 +12,22 @@ import Contact from "./../contact/contact";
 import Footer from "./../footer/footer";
 
 class App extends Component {
-    render() {
-        return (
+  render() {
+    return (
 
-            <div className="App">
-              <Header />
-              <Hero />
-              <Services />
-              <Portfolio />
-              <Team/>
-              <News />
-              <Contact />
-              <Footer />
-            </div>
+        <div className="App">
+          <Header />
+          <Hero />
+          <Services />
+          <Portfolio />
+          <Team/>
+          <News />
+          <Contact />
+          <Footer />
+        </div>
 
-        );
-    }
+    );
+  }
 }
 
 export default App;
