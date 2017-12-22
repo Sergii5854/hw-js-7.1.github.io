@@ -32,7 +32,7 @@
   justify-content: space-around; }
 
 .portfolio {
-  background-color: #ff5959; }
+  background-color: #fc7d7d; }
 
 .animation {
   display: table;
@@ -54,28 +54,51 @@
   overflow: auto; }
 
 h3 {
-  margin: 5px 0 5px 0; }
-
-.icon {
-  color: white;
-  border-radius: 10px;
-  display: inline-block;
-  font-family: Quicksand, sans-serif;
-  font-size: 18px;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
+  display: block;
+  margin: 5px 0 5px 0;
+  position: relative; }
+  h3:before {
+    position: absolute;
+    content: '\2605';
+    color: white;
+    background-color: #ff5959;
+    border-radius: 50%;
+    font-family: Quicksand, sans-serif;
+    font-size: 10px;
+    transition: 0.5s;
+    padding: 5px 7px;
+    right: 38%;
+    bottom: -35px;
+    background-position: center center;
+    background-repeat: no-repeat; }
+  h3:after {
+    position: absolute;
+    content: '';
+    background-image: url(./../../assets/img/viewMore.png);
+    color: white;
+    background-color: #ff5959;
+    border-radius: 50%;
+    font-family: Quicksand, sans-serif;
+    font-size: 10px;
+    transition: 0.5s;
+    padding: 5px 12px;
+    height: 14px;
+    left: 38%;
+    bottom: -35px;
+    background-position: center center;
+    background-repeat: no-repeat; }
 
 .blockImg {
   padding: 10px 0 10px 0; }
 
-div#portfolio3 {
+div.portfolio3 {
   margin: 40px -40px 40px 0; }
 
-#portfolio h3 {
+.portfolio h3 {
   font-size: 24px;
   font-weight: 700; }
 
-#portfolio1 {
+.portfolio1 {
   width: 558px;
   height: 278px;
   max-width: 100%;
@@ -83,11 +106,10 @@ div#portfolio3 {
   display: block;
   position: relative; }
 
-#portfolio1:after {
+.portfolio1:after {
   content: "";
   background-image: url(./../../assets/img/img-here.png);
   background-position: center center;
-  filter: alpha(opacity=20);
   opacity: 1;
   top: 0;
   left: 0;
@@ -95,24 +117,17 @@ div#portfolio3 {
   right: 0;
   position: absolute;
   z-index: 0;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
-#portfolio1:hover:after {
+.portfolio1:hover:after {
   content: "";
   background-image: url(./../../assets/img/img-here.png);
   background-position: center center;
   opacity: 0.2;
-  filter: alpha(opacity=20);
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   position: absolute;
-  z-index: 0;
-  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.2); }
+  z-index: 0; }
 
-#portfolio2 {
+.portfolio2 {
   width: 558px;
   height: 278px;
   max-width: 100%;
@@ -120,7 +135,7 @@ div#portfolio3 {
   display: block;
   position: relative; }
 
-#portfolio2:after {
+.portfolio2:after {
   content: " ";
   background-image: url(./../../assets/img/img-here1.png);
   background-position: center center;
@@ -131,23 +146,17 @@ div#portfolio3 {
   right: 0;
   position: absolute;
   z-index: 0;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
+  transition: 0.5s; }
 
-#portfolio2:hover::after {
+.portfolio2:hover::after {
   content: " ";
   background-image: url(./../../assets/img/img-here1.png);
   background-position: center center;
   opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   position: absolute;
-  z-index: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; }
+  z-index: 0; }
 
-#portfolio3 {
+.portfolio3 {
   width: 271px;
   height: 286px;
   max-width: 100%;
@@ -155,7 +164,7 @@ div#portfolio3 {
   display: block;
   position: relative; }
 
-#portfolio3:after {
+.portfolio3:after {
   content: " ";
   background-image: url(./../../assets/img/img-here2.png);
   background-position: center center;
@@ -166,119 +175,12 @@ div#portfolio3 {
   right: 0;
   position: absolute;
   z-index: 0;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
+  transition: 0.5s; }
 
-#portfolio3:hover::after {
+.portfolio3:hover::after {
   content: " ";
   background-image: url(./../../assets/img/img-here2.png);
   background-position: center center;
   opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: 0; }
-
-#portfolio4 {
-  width: 271px;
-  height: 286px;
-  max-width: 100%;
-  max-height: 286px;
-  display: block;
-  position: relative; }
-
-#portfolio4:after {
-  content: " ";
-  background-image: url(./../../assets/img/img-here3.png);
-  background-position: center center;
-  opacity: 1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: 0;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
-
-#portfolio4:hover::after {
-  content: " ";
-  background-image: url(./../../assets/img/img-here3.png);
-  background-position: center center;
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: 0; }
-
-#portfolio5 {
-  width: 271px;
-  height: 286px;
-  max-width: 100%;
-  max-height: 286px;
-  display: block;
-  position: relative; }
-
-#portfolio5:after {
-  content: " ";
-  background-image: url(./../../assets/img/img-here3.png);
-  background-position: center center;
-  opacity: 1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: 0;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
-
-#portfolio5:hover::after {
-  content: " ";
-  background-image: url(./../../assets/img/img-here4.png);
-  background-position: center center;
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: 0; }
-
-#portfolio6 {
-  width: 271px;
-  height: 286px;
-  max-width: 100%;
-  max-height: 286px;
-  display: block;
-  position: relative; }
-
-#portfolio6:after {
-  content: " ";
-  background-image: url(./../../assets/img/img-here6.png);
-  background-position: center center;
-  opacity: 1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: 0;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
-
-#portfolio6:hover::after {
-  content: " ";
-  background-image: url(./../../assets/img/img-here6.png);
-  background-position: center center;
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   position: absolute;
   z-index: 0; }

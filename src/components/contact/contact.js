@@ -22,7 +22,7 @@ export default class Contact extends Component {
                            
                             <input type='text' name='lname' placeholder='Email Address'/>
                            
-                            <textarea placeholder='Message' rows='8' id='coment'>
+                            <textarea placeholder='Message' rows='8'>
                             </textarea>
                         </form>
                     </div>
@@ -49,18 +49,18 @@ export default class Contact extends Component {
                         </p>
                         <div className='arrow'>
                             <p className='contactBlock'>
-                                <img src={mapPin}/>
+                                <img src={mapPin} alt='mapPin'/>
                                 StreetName 163, 254 23 City
                             </p>
-                            <img className='arrowImg' src={arrow}/>
+                            <img className='arrowImg' src={arrow} alt='arrow'/>
                         </div>
                         <p className='contactBlock'>
-                            <img src={phone}/>
+                            <img src={phone} alt='phone'/>
                             (+254) 001 454 333 66
                         </p>
                         <div className='btn'>
-                            <a href='#' className='sendMessageBtn'>SEND MESSAGE</a>
-                            <a href='#' className='viewMapBtn'>VIEW MAP</a>
+                            <a href='#sendMessageBtn' className='sendMessageBtn'>SEND MESSAGE</a>
+                            <a href='#viewMapBtn' className='viewMapBtn'>VIEW MAP</a>
                         </div>
                     </div>
                 </div>

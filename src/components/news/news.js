@@ -18,11 +18,11 @@ export default class News extends Component {
                 </div>
                 <div className='rowNewsInfo'>
                     <div className='blockNewsInfo'>
-                        <img src={imgNews}/>
+                        <img src={imgNews} alt='line'/>
                         <div className='textInfo'>
                             <h3>Theme HotelDeluxe Released</h3>
                             <p>
-                                <img className='calendar' src={calendar}/>
+                                <img className='calendar' src={calendar} alt='calendar'/>
                                 15th September, 21:24
                             </p>
                             <p>
@@ -40,9 +40,9 @@ export default class News extends Component {
                                 eu odio aliquet tincidunt. Sed at consequat
                                 nulla. Nulla luctus dapibus nulla...
                             </p>
-                            <img className='autor' src={author}/>
+                            <img className='autor' src={author} alt='author'/>
                             Dan Aase
-                            <img className='comments' src={comments}/>
+                            <img className='comments' src={comments} alt='comments'/>
                             21 Comments
                         </div>
                     </div>
@@ -51,7 +51,7 @@ export default class News extends Component {
                         <div className='textInfo'>
                             <h3>Theme HotelDeluxe Released</h3>
                             <p>
-                                <img className='calendar' src={calendar}/>
+                                <img className='calendar' src={calendar} alt='calendar'/>
                                 15th September, 21:24
                             </p>
                             <p>
@@ -69,9 +69,9 @@ export default class News extends Component {
                                 eu odio aliquet tincidunt. Sed at consequat
                                 nulla. Nulla luctus dapibus nulla...
                             </p>
-                            <img className='autor' src={author}/>
+                            <img className='autor' src={author} alt='author'/>
                             Dan Aase
-                            <img className='comments' src={comments}/>
+                            <img className='comments' src={comments} alt='comments'/>
                             21 Comments
                         </div>
                     </div>
@@ -80,7 +80,7 @@ export default class News extends Component {
                         <div className='textInfo'>
                             <h3>Theme HotelDeluxe Released</h3>
                             <p>
-                                <img className='calendar' src={calendar}/>
+                                <img className='calendar' src={calendar} alt='calendar'/>
                                 15th September, 21:24
                             </p>
                             <p>
@@ -98,9 +98,9 @@ export default class News extends Component {
                                 eu odio aliquet tincidunt. Sed at consequat
                                 nulla. Nulla luctus dapibus nulla...
                             </p>
-                            <img className='autor' src={author}/>
+                            <img className='autor' src={author} alt='author'/>
                             Dan Aase
-                            <img className='comments' src={comments}/>
+                            <img className='comments' src={comments} alt='comments'/>
                             21 Comments
                         </div>
                     </div>

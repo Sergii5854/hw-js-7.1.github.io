@@ -1,4 +1,6 @@
 .contact {
+  height: auto;
+  width: 100%;
   padding-bottom: 30px; }
 
 .contactTitle {
@@ -22,8 +24,22 @@
     bottom: 0;
     background-position: center bottom; }
 
+.blockContactInfo h2 {
+  color: black;
+  font-size: 20px; }
+
+.rowContactInfo {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 300px;
+  justify-content: space-around; }
+
 .blockForm {
-  width: 48%; }
+  max-width: 500px; }
+
+.blockContactInfo {
+  max-width: 500px;
+  margin: 0 15px 0 5px; }
 
 input {
   width: 100%;
@@ -44,24 +60,14 @@ textarea {
   font-size: 18px;
   outline: none; }
 
-.blockContactInfo {
-  margin: 0 15px 0 5px;
-  width: 48%; }
-
-.rowContactInfo {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1 1 300px;
-  justify-content: space-around; }
-
 .sendMessageBtn {
   margin-right: 30px;
-  background-color: #ff5959;
+  background-color: #fc7d7d;
   color: white;
   padding: 10px 40px;
   margin-top: 30px;
   border-radius: 10px;
-  border: 2px solid #ff5959;
+  border: 2px solid #fc7d7d;
   display: inline-block;
   font-family: 'Droid Sans', sans-serif;
   font-size: 18px;
@@ -72,7 +78,7 @@ textarea {
   color: white;
   padding: 10px 40px;
   margin-top: 30px;
-  border: 2px solid #ff5959;
+  border: 2px solid #fc7d7d;
   border-radius: 10px;
   display: inline-block;
   font-family: 'Droid Sans', sans-serif;
@@ -88,13 +94,19 @@ textarea {
 .borderButton:hover {
   text-decoration: none;
   color: white;
-  background-color: #ff5959; }
+  background-color: #fc7d7d; }
 
 .arrow {
-  display: flex; }
+  display: flex;
+  margin-top: 25px; }
 
 img.arrowImg {
-  top: 50px; }
+  position: relative;
+  top: 5px;
+  left: 10px; }
 
-p.contactBlock img {
-  padding: 0 10px 0 10px; }
+.contactBlock {
+  margin: 0; }
+
+.contactBlock img {
+  padding: 0 10px 0 0; }

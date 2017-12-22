@@ -20,7 +20,7 @@ export default class Hero extends Component {
                     <a href="#Contact" className="borderButton">CONTACT US</a>
                   </div>
                   <div className='rowImg'>
-                    <img src={MacHeader}/>
+                    <img src={MacHeader} alt='MacBook'/>
                   </div>
                 </div>
               </div>

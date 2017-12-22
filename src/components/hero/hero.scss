@@ -18,18 +18,18 @@
 .heroTitle{
   font-family: 'Droid Sans', sans-serif;
   font-size: 72px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   width: 100%;
 }
 .heroSubTitle{
   font-family: 'Droid Sans', sans-serif;
   font-size: 30px;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 40px;
   width: 100%;
 }
 .heroContent{
-  margin-top: 0px;
+  margin-top: 0;
   font-size: 24px;
   font-family: "DejaVuSans";
 }
@@ -61,30 +61,28 @@
 }
 
 .filledButton {
-  background-color: #ff5959;
+  background-color: #fc7d7d;
   color: white;
   padding: 10px 40px;
   margin-top: 30px;
   border-radius: 10px;
-  border: 2px solid #ff5959;
+  border: 2px solid #fc7d7d;
   display: inline-block;
   font-family: 'Droid Sans', sans-serif;
   font-size: 18px;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition:0.5s;
 }
 
 .viewMapBtn {
   color: white;
   padding: 10px 40px;
   margin-top: 30px;
-  border: 2px solid #ff5959;
+  border: 2px solid #fc7d7d;
   border-radius: 10px;
   display: inline-block;
   font-family: 'Droid Sans', sans-serif;
   font-size: 18px;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  transition:0.5s;
 }
 
 .filledButton:hover {
@@ -96,7 +94,7 @@
 .viewMapBtn:hover {
   text-decoration: none;
   color: white;
-  background-color: #ff5959;
+  background-color: #fc7d7d;
 }
 @media (max-width: 550px){
   .rowInfo {

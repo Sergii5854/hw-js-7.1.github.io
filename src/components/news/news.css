@@ -19,11 +19,11 @@
     bottom: 0;
     background-position: center bottom; }
 
-h3 {
-  font-size: 20px; }
+.textInfo h3 {
+  font-size: 20px !important; }
 
 .news {
-  background-color: #ff5959; }
+  background-color: #fc7d7d; }
 
 .calendar {
   margin: 0 10px 0 0; }
@@ -46,4 +46,8 @@ h3 {
   overflow: auto; }
 
 .blockNewsInfo {
-  width: 30%; }
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0 10px 40px 10px;
+  max-width: 330px; }

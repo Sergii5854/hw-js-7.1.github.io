@@ -31,19 +31,19 @@ export default class Team extends Component {
                     amet, consectetur, adipisci velit...
                   </p>
                   <div className='socialIcons'>
-                    <a href='#'>
+                    <a href='#twitter'>
                       <img src={twitter}/>
                     </a>
-                    <a href='#'>
+                    <a href='#icon'>
                       <img src={icon}/>
                     </a>
-                    <a href='#'>
+                    <a href='#facebook'>
                       <img src={facebook}/>
                     </a>
-                    <a href='#'>
+                    <a href='#googlePlus'>
                       <img src={googlePlus}/>
                     </a>
-                    <a href='#'>
+                    <a href='#linked'>
                       <img src={linked}/>
                     </a>
                   </div>
@@ -58,19 +58,19 @@ export default class Team extends Component {
                     amet, consectetur, adipisci velit...
                   </p>
                   <div className='socialIcons'>
-                    <a href='#'>
+                    <a href='#twitter'>
                       <img src={twitter}/>
                     </a>
-                    <a href='#'>
+                    <a href='#icon'>
                       <img src={icon}/>
                     </a>
-                    <a href='#'>
+                    <a href='#facebook'>
                       <img src={facebook}/>
                     </a>
-                    <a href='#'>
+                    <a href='#googlePlus'>
                       <img src={googlePlus}/>
                     </a>
-                    <a href='#'>
+                    <a href='#linked'>
                       <img src={linked}/>
                     </a>
                   </div>
@@ -85,19 +85,19 @@ export default class Team extends Component {
                     amet, consectetur, adipisci velit...
                   </p>
                   <div className='socialIcons'>
-                    <a href='#'>
+                    <a href='#twitter'>
                       <img src={twitter}/>
                     </a>
-                    <a href='#'>
+                    <a href='#icon'>
                       <img src={icon}/>
                     </a>
-                    <a href='#'>
+                    <a href='#facebook'>
                       <img src={facebook}/>
                     </a>
-                    <a href='#'>
+                    <a href='#googlePlus'>
                       <img src={googlePlus}/>
                     </a>
-                    <a href='#'>
+                    <a href='#linked'>
                       <img src={linked}/>
                     </a>
                   </div>
@@ -112,19 +112,19 @@ export default class Team extends Component {
                     amet, consectetur, adipisci velit...
                   </p>
                   <div className='socialIcons'>
-                    <a href='#'>
+                    <a href='#twitter'>
                       <img src={twitter}/>
                     </a>
-                    <a href='#'>
+                    <a href='#icon'>
                       <img src={icon}/>
                     </a>
-                    <a href='#'>
+                    <a href='#facebook'>
                       <img src={facebook}/>
                     </a>
-                    <a href='#'>
+                    <a href='#googlePlus'>
                       <img src={googlePlus}/>
                     </a>
-                    <a href='#'>
+                    <a href='#linked'>
                       <img src={linked}/>
                     </a>
                   </div>

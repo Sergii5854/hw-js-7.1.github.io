@@ -5,11 +5,12 @@
   top: 0;
   left: 0;
   color: rgb(232,232,232);
-}
-.textBlock {
-  margin-left: 30px;
   font-family: "Quicksand-Bold";
   font-weight: bold;
+}
+.textBlock {
+  width: 100%;
+  margin-left: 30px;
 }
 .footerLogo {
   display: flex;
@@ -22,8 +23,23 @@
   height: 115px;
   margin-left: 30px;
   display: flex;
+
+  flex-direction: row;
   align-items: center;
   align-content: center;
   justify-content: flex-start;
   overflow: auto;
+}
+.text {
+  color: gray;
+  display: flex;
+  justify-content: flex-end;
+}
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 300px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }

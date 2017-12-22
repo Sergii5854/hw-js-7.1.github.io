@@ -6,7 +6,7 @@ export default class Footer extends Component {
   render() {
     return (
         <footer className="footer">
-            <div className='container'>
+            <div className='container block'>
                 <div className='footerBlock'>
                     <div className="footer__section">
                         <div className='footerLogo'>
@@ -18,6 +18,9 @@ export default class Footer extends Component {
                     <div className='textBlock'>
                         <p>&copy; Copyright 2017</p>
                     </div>
+                </div>
+                <div className='text'>
+                    <p>Designed BY C3Developement</p>
                 </div>
             </div>
         </footer>

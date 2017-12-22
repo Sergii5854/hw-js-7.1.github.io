@@ -18,7 +18,7 @@ export default class Services extends Component {
               </div>
               <div className='rowInfo'>
                 <div className='baseInfoItems'>
-                  <img src={designBulb}/>
+                  <img src={designBulb} alt='designBulb'/>
                   <h2 className='basicInfoTitle'>HTML 5 & CSS3</h2>
                   <p className='basicInfoDescription'>
                     Sed fermentum, ante vel sagittis adipiscing,
@@ -29,7 +29,7 @@ export default class Services extends Component {
                   </p>
                 </div>
                 <div className='baseInfoItems'>
-                  <img src={designMagnifier}/>
+                  <img src={designMagnifier} alt='designMagnifier'/>
                   <h2 className='basicInfoTitle'>SEO Optimization</h2>
                   <p className='basicInfoDescription'>
                     Sed fermentum, ante vel sagittis adipiscing,
@@ -40,7 +40,7 @@ export default class Services extends Component {
                   </p>
                 </div>
                 <div className='baseInfoItems'>
-                  <img src={designPencil}/>
+                  <img src={designPencil} alt='designPencil'/>
                   <h2 className='basicInfoTitle'>SEO Optimization</h2>
                   <p className='basicInfoDescription'>
                     Sed fermentum, ante vel sagittis adipiscing,
