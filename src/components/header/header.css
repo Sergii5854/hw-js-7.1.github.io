@@ -1,19 +1,17 @@
-.navbar-static-top {
-  min-height: 111px;
-  background-color: #ff5959;
-  color: white;
-  display: table;
-  width: 100%;
-  border: none; }
+.App-header {
+  height: auto;
+  text-align: center;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 300px;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around; }
 
-.navbar-nav > li > a {
-  line-height: 100%;
-  padding: 10px 15px;
-  border-radius: 10px;
-  margin-top: 10px;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
-
+<<<<<<< HEAD
 .navbar-nav > li > a:hover {
   color: white !important;
   background-color: #fc7d7d !important; }
@@ -52,14 +50,89 @@
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
   color: white !important;
   background-color: #fc7d7d !important; }
+=======
+.logoBlock {
+  display: flex;
+  margin: 0 auto; }
 
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
-  color: white;
+.App-logo {
+  margin-top: 10px; }
+
+.logo__section {
+  align-items: flex-start;
+  justify-content: center;
+  margin: 20px 0; }
+
+.logo__wrap__desc {
+  text-align: left;
+  padding: 0 10px;
+  display: flex; }
+
+.logo {
+  padding: 20px 0 0 0; }
+
+.logo__title {
+  padding: 5px 0 0 10px; }
+
+.logo-sub__title {
+  margin: 0;
+  padding: 0 0; }
+>>>>>>> develop
+
+.header {
   background-color: #fc7d7d; }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: transparent; }
+h2 {
+  margin: 5px 0 5px 0;
+  font-size: 18px;
+  color: #e8e8e8;
+  font-family: "Quicksand-Bold";
+  font-weight: bold; }
 
+h3 {
+  font-size: 30px !important;
+  color: #e8e8e8;
+  font-family: "Quicksand-Light"; }
+
+span.logo {
+  font-weight: lighter; }
+
+.nav {
+  display: flex;
+  flex: 1 1 550px;
+  flex-wrap: wrap;
+  justify-content: flex-end; }
+
+.nav a {
+  padding: 12px 12px 12px 12px;
+  font-size: 18px;
+  line-height: 49px;
+  color: #e8e8e8;
+  font-family: "Quicksand-Bold";
+  font-weight: bold;
+  text-align: right;
+  transition: all 0.5s ease; }
+
+.nav a {
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px; }
+
+nav a:hover {
+  color: white !important;
+  background-color: #ff5959 !important; }
+
+<<<<<<< HEAD
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
   text-align: center; }
+=======
+.logo__section {
+  padding: 0 15px; }
+
+@media (max-width: 820px) {
+  .nav {
+    justify-content: center; }
+  .nav a {
+    padding: 5px 10px 5px 10px;
+    line-height: 30px; } }
+>>>>>>> develop

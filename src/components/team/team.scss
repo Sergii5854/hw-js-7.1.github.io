@@ -1,4 +1,8 @@
-.teamTitle {;
+.team {
+  padding: 0 10px;
+}
+
+.teamTitle {
   display: block;
   position: relative;
   font-family: Quicksand, sans-serif;
@@ -21,10 +25,6 @@
     background-position: center bottom;
   }
 }
-
-
-
-
 .rowTeam {
   display: flex;
   flex-wrap: wrap;
@@ -34,8 +34,10 @@
 }
 
 .founder {
+  max-width: 200px;
   text-align: center;
   padding: 15px;
+  margin-bottom: 30px;
 }
 
 .founderImg {
@@ -44,7 +46,7 @@
   max-width: 270px;
   max-height: 270px;
   border-radius: 50%;
-  border: 4px solid red;
+  border: 4px solid #fc7d7d;
   align-items: center;
 }
 
@@ -75,7 +77,6 @@
   display: block;
   font-family: Quicksand, sans-serif;
   font-size: 14px;
-
   line-height: 20px;
   margin-bottom: 10px;
 }
@@ -87,10 +88,18 @@
   font-size: 14px;
   height: 24px;
   line-height: 20px;
-  padding-top: 0px;
+  padding-top: 0;
   text-align: center;
 }
-
 .socialIcons a {
   margin: 0 5px;
+}
+.teamTitle{
+  color: #222;
+}
+@media (max-width: 550px) {
+  .teamTitle{
+    font-size: 30px;
+      }
+  
 }

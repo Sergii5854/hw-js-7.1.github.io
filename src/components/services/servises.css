@@ -26,6 +26,7 @@
   justify-content: space-around; }
 
 .baseInfoItems {
+  max-width: 300px;
   text-align: center;
   padding: 15px; }
 

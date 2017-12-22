@@ -1,22 +1,100 @@
 .hero {
-  background-color: black;
-  height: 760px;
-  width: 100%;
   color: white;
   background-image: url(./../../assets/img/backgroundImage.png);
-  display: table;
   box-sizing: border-box; }
+
+.blockHero {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  padding: 0 10px; }
 
 .heroTitle {
   font-family: 'Droid Sans', sans-serif;
   font-size: 72px;
-  margin-bottom: 0px; }
+  margin-bottom: 0;
+  width: 100%; }
 
 .heroSubTitle {
   font-family: 'Droid Sans', sans-serif;
   font-size: 30px;
-  margin-top: 0px;
-  margin-bottom: 40px; }
+  margin-top: 0;
+  margin-bottom: 40px;
+  width: 100%; }
 
 .heroContent {
-  margin-top: 0px; }
+  margin-top: 0;
+  font-size: 24px;
+  font-family: "DejaVuSans"; }
+
+.row {
+  width: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 400px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto; }
+
+.rowInfo {
+  padding: 100px 0 100px 0; }
+
+.rowImg {
+  padding: 0 20px 50px 20px; }
+
+.rowImg img {
+  width: auto; }
+
+.filledButton {
+  background-color: #fc7d7d;
+  color: white;
+  padding: 10px 40px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 2px solid #fc7d7d;
+  display: inline-block;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 18px;
+  transition: 0.5s; }
+
+.viewMapBtn {
+  color: white;
+  padding: 10px 40px;
+  margin-top: 30px;
+  border: 2px solid #fc7d7d;
+  border-radius: 10px;
+  display: inline-block;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 18px;
+  transition: 0.5s; }
+
+.filledButton:hover {
+  text-decoration: none;
+  color: white;
+  background-color: transparent; }
+
+.viewMapBtn:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #fc7d7d; }
+
+@media (max-width: 550px) {
+  .heroTitle {
+    font-size: 45px; }
+  .heroSubTitle {
+    font-size: 25px; }
+  .heroContent {
+    font-size: 18px; }
+  .rowInfo {
+    padding: 50px 0; }
+  .rowImg img {
+    width: 100%;
+    margin-bottom: 50px; } }
