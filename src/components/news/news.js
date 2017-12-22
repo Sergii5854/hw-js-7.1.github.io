@@ -14,11 +14,11 @@ export default class News extends Component {
           <section className="news">
             <div className='container'>
               <div className='row'>
-                <h1 className='newsTitle'>The Latest News</h1>
+                <h2 className='newsTitle'>The Latest News</h2>
               </div>
               <div className='rowNewsInfo'>
                 <div className='blockNewsInfo'>
-                  <img src={imgNews} alt='line'/>
+                  <img className="imgNews" src={imgNews} alt='line'/>
                   <div className='textInfo'>
                     <h3>Theme HotelDeluxe Released</h3>
                     <p>
@@ -47,7 +47,7 @@ export default class News extends Component {
                   </div>
                 </div>
                 <div className='blockNewsInfo'>
-                  <img src={imgNews} alt="imgNews"/>
+                  <img  className="imgNews" src={imgNews} alt="imgNews"/>
                   <div className='textInfo'>
                     <h3>Theme HotelDeluxe Released</h3>
                     <p>
@@ -76,7 +76,7 @@ export default class News extends Component {
                   </div>
                 </div>
                 <div className='blockNewsInfo'>
-                  <img src={imgNews} alt="imgNews"/>
+                  <img  className="imgNews" src={imgNews} alt="imgNews"/>
                   <div className='textInfo'>
                     <h3>Theme HotelDeluxe Released</h3>
                     <p>

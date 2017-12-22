@@ -9,7 +9,7 @@ export default class Portfolio extends Component {
           <section className="portfolio">
             <div className='container'>
               <div className='row'>
-                <h1 className='portfolioTitle'>Our Portfolio</h1>
+                <h2 className='portfolioTitle'>Our Portfolio</h2>
               </div>
               <div className='rowImg'>
                 <div className='blockImg'>

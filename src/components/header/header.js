@@ -17,8 +17,8 @@ export default class Header extends Component {
 
   render() {
     return (
-        <section className="header">
-          <header className='App-header'>
+        <section className="header ">
+          <header className='App-header container '>
             <div className="logo__section">
               <div className="logo__wrap__desc">
                 <a href="#Home"><img src={logo} className='App-logo' alt='logo'/></a>

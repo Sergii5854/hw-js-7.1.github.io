@@ -1,3 +1,7 @@
+.news {
+  padding: 0 10px;
+  background-color: #fc7d7d; }
+
 .newsTitle {
   display: block;
   position: relative;
@@ -22,8 +26,8 @@
 .textInfo h3 {
   font-size: 20px !important; }
 
-.news {
-  background-color: #fc7d7d; }
+.textInfo {
+  padding: 0 10px; }
 
 .calendar {
   margin: 0 10px 0 0; }
@@ -42,8 +46,7 @@
   flex-direction: row;
   align-items: center;
   align-content: center;
-  justify-content: space-around;
-  overflow: auto; }
+  justify-content: space-around; }
 
 .blockNewsInfo {
   display: block;
@@ -51,3 +54,6 @@
   height: 100%;
   padding: 0 10px 40px 10px;
   max-width: 330px; }
+
+.imgNews {
+  width: 90%; }

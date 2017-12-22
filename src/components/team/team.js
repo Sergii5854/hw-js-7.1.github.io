@@ -17,7 +17,7 @@ export default class Team extends Component {
           <section className="team">
             <div className='container'>
               <div className='row'>
-                <h1 className='teamTitle'>Our Wonderful Team</h1>
+                <h2 className='teamTitle'>Our Wonderful Team</h2>
 
               </div>
               <div className='rowTeam'>

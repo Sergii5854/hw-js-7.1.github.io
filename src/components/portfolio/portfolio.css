@@ -1,3 +1,7 @@
+.portfolio {
+  background-color: #fc7d7d;
+  padding: 0 10px; }
+
 .portfolioTitle {
   display: block;
   position: relative;
@@ -31,9 +35,6 @@
   flex: 1 1 300px;
   justify-content: space-around; }
 
-.portfolio {
-  background-color: #fc7d7d; }
-
 .animation {
   display: table;
   width: 100%;
@@ -44,20 +45,22 @@
   width: 100%;
   font-size: 18px;
   text-align: center;
-  top: 0;
-  left: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
-  justify-content: center;
-  overflow: auto; }
+  justify-content: center; }
 
-h3 {
-  display: block;
-  margin: 5px 0 5px 0;
-  position: relative; }
-  h3:before {
+.blockImg {
+  padding: 10px 0 10px 0; }
+
+div.portfolio3 {
+  margin: 40px -40px 40px 0; }
+
+.portfolio h3 {
+  font-size: 24px;
+  font-weight: 700; }
+  .portfolio h3:before {
     position: absolute;
     content: '\2605';
     color: white;
@@ -71,7 +74,7 @@ h3 {
     bottom: -35px;
     background-position: center center;
     background-repeat: no-repeat; }
-  h3:after {
+  .portfolio h3:after {
     position: absolute;
     content: '';
     background-image: url(./../../assets/img/viewMore.png);
@@ -88,23 +91,17 @@ h3 {
     background-position: center center;
     background-repeat: no-repeat; }
 
-.blockImg {
-  padding: 10px 0 10px 0; }
-
-div.portfolio3 {
-  margin: 40px -40px 40px 0; }
-
-.portfolio h3 {
-  font-size: 24px;
-  font-weight: 700; }
-
 .portfolio1 {
   width: 558px;
   height: 278px;
-  max-width: 100%;
+  max-width: 558px;
   max-height: 278px;
   display: block;
   position: relative; }
+  @media (max-width: 550px) {
+    .portfolio1 {
+      width: 300px;
+      height: 151px; } }
 
 .portfolio1:after {
   content: "";
@@ -117,7 +114,8 @@ div.portfolio3 {
   right: 0;
   position: absolute;
   z-index: 0;
-  transition: all 0.5s ease; }
+  transition: all 0.5s ease;
+  background-size: contain; }
 
 .portfolio1:hover:after {
   content: "";
@@ -184,3 +182,8 @@ div.portfolio3 {
   opacity: 0.2;
   position: absolute;
   z-index: 0; }
+
+@media (max-width: 550px) {
+  .portfolio1, .portfolio2 {
+    width: 300px;
+    height: 151px; } }

@@ -1,7 +1,8 @@
 body {
   margin: 0;
-  padding: 0;
-  background: #e8e8e8;;
+  padding: 0 ;
+  background: #e8e8e8;
+  overflow-x: hidden ;
 }
 
 a {
@@ -13,5 +14,19 @@ a {
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
-  padding: 0 10px;
+
+}
+
+
+h3 {
+  display: block;
+  margin: 5px 0 5px 0;
+  position: relative;
+}
+
+@media (max-width: 550px) {
+  h1{
+    font-size: 33px;
+  }
+  
 }

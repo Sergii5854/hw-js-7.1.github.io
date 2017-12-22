@@ -1,7 +1,7 @@
 .contact {
   height: auto;
   width: 100%;
-  padding-bottom: 30px; }
+  padding: 0 10px 30px; }
 
 .contactTitle {
   display: block;
@@ -11,7 +11,8 @@
   text-align: center;
   margin: 50px 0 70px 0;
   font-size: 36px;
-  font-weight: 500; }
+  font-weight: 500;
+  color: #222222; }
   .contactTitle:after {
     position: absolute;
     content: '';
@@ -35,9 +36,11 @@
   justify-content: space-around; }
 
 .blockForm {
+  width: 100%;
   max-width: 500px; }
 
 .blockContactInfo {
+  width: 100%;
   max-width: 500px;
   margin: 0 15px 0 5px; }
 
@@ -47,17 +50,21 @@ input {
   padding: 15px 0 15px 5px;
   font-size: 18px;
   border: none;
+  max-width: 550px;
   border-radius: 10px;
-  outline: none; }
+  outline: none;
+  font-family: Quicksand, sans-serif; }
 
 textarea {
   width: 100%;
+  max-width: 550px;
   margin: 5px 10px 5px 0;
   padding: 15px 0 15px 5px;
   resize: none;
   border: none;
   border-radius: 10px;
   font-size: 18px;
+  font-family: Quicksand, sans-serif;
   outline: none; }
 
 .sendMessageBtn {
@@ -110,3 +117,9 @@ img.arrowImg {
 
 .contactBlock img {
   padding: 0 10px 0 0; }
+
+@media (max-width: 550px) {
+  .arrowImg {
+    display: none; }
+  .blockForm {
+    width: 85%; } }

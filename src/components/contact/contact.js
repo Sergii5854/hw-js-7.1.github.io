@@ -13,7 +13,7 @@ export default class Contact extends Component {
           <section className="contact">
             <div className='container'>
               <div className='row'>
-                <h1 className='contactTitle'>Contact Us</h1>
+                <h2 className='contactTitle'>Contact Us</h2>
               </div>
               <div className='rowContactInfo'>
                 <div className='blockForm'>

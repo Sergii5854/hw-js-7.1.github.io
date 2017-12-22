@@ -10,8 +10,8 @@ export default class Hero extends Component {
           <section className='hero'>
             <div className="blockHero">
               <div className="container">
-                <div className="row ">
-                  <div className="rowInfo">
+                <div className="row  ">
+                  <div className="rowInfo ">
                     <h1 className="heroTitle">ONE PAGE</h1>
                     <h2 className="heroSubTitle">IS ALL THAT YOU NEED</h2>
                     <p className="heroContent">Suspendisse mi nisl, adipiscing sit amet tellus sed, auctor aliquet

@@ -5,22 +5,24 @@ import logo from './../../assets/img/logo.png'
 export default class Footer extends Component {
   render() {
     return (
-        <footer className="footer">
-          <div className='container block'>
+        <footer className="footer ">
+          <div className=' container'>
             <div className='footerBlock'>
-              <div className="footer__section">
-                <div className='footerLogo'>
-                  <img src={logo} className='App-logo' alt='logo'/>
-                  <h3><span className='logo'>Pro</span>Jex</h3>
+              <div className="wrap-content">
+                <div className="footer__section">
+                  <div className='footerLogo'>
+                    <img src={logo} className='App-logo' alt='logo'/>
+                    <h3><span className='logo'>Pro</span>Jex</h3>
+                  </div>
+                  <h2>One Page Business Theme</h2>
                 </div>
-                <h2>One Page Business Theme</h2>
+                <div className='textBlock'>
+                  <p>&copy; Copyright 2017</p>
+                </div>
               </div>
-              <div className='textBlock'>
-                <p>&copy; Copyright 2017</p>
+              <div className='text'>
+                <p>Designed BY C3Developement</p>
               </div>
-            </div>
-            <div className='text'>
-              <p>Designed BY C3Developement</p>
             </div>
           </div>
         </footer>

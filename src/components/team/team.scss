@@ -1,4 +1,8 @@
-.teamTitle {;
+.team {
+  padding: 0 10px;
+}
+
+.teamTitle {
   display: block;
   position: relative;
   font-family: Quicksand, sans-serif;
@@ -89,4 +93,13 @@
 }
 .socialIcons a {
   margin: 0 5px;
+}
+.teamTitle{
+  color: #222;
+}
+@media (max-width: 550px) {
+  .teamTitle{
+    font-size: 30px;
+      }
+  
 }
